@@ -1,0 +1,19 @@
+# Скомпилированные бинарники
+main
+main.exe
+*.exe
+*.o
+*.obj
+*.out
+
+# Сгенерированные результаты (создаются запуском main.exe)
+results/*
+!results/.gitkeep
+
+# Сгенерированные графики (создаются Python-скриптами в plots/)
+plots/*.png
+
+# Системные / редакторские
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,5 @@
+g++ -std=c++17 -O3 -Wall -Wno-maybe-uninitialized -o main.exe src\main.cpp
+.\main.exe
+from plots
+python plot_prof.py
+python plot_anal.py
